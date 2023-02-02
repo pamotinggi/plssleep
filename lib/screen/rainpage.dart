@@ -58,26 +58,20 @@ class _RainPageState extends State<RainPage> {
                     await player.pause();
                   },
                   icon:
-                      Icon(EvaIcons.pauseCircle, size: 70, color: Colors.blue),
-                ),
-                SizedBox(
-                  width: 15,
+                      Icon(EvaIcons.pauseCircle, size: 30, color: Colors.blue),
                 ),
                 IconButton(
                   onPressed: () async {
                     await player.setSource(AssetSource('rainsound.mp3'));
                     player.resume();
                   },
-                  icon: Icon(EvaIcons.playCircle, size: 70, color: Colors.blue),
-                ),
-                SizedBox(
-                  width: 15,
+                  icon: Icon(EvaIcons.playCircle, size: 30, color: Colors.blue),
                 ),
                 IconButton(
                   onPressed: () async {
                     await player.stop();
                   },
-                  icon: Icon(EvaIcons.stopCircle, size: 70, color: Colors.blue),
+                  icon: Icon(EvaIcons.stopCircle, size: 30, color: Colors.blue),
                 ),
               ],
             ),

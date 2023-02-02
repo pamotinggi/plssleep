@@ -55,10 +55,10 @@ class _BluepageState extends State<Bluepage> {
                     },
                     icon: Icon(
                       EvaIcons.pauseCircle,
-                      size: 70,
+                      size: 30,
                       color: Colors.blue,
                     )),
-                SizedBox(width: 15,),
+
                 IconButton(
                     onPressed: () async {
                       await player.setSource(AssetSource('calmblue.mp3'));
@@ -66,17 +66,17 @@ class _BluepageState extends State<Bluepage> {
                     },
                     icon: Icon(
                       EvaIcons.playCircle,
-                      size: 70,
+                      size: 30,
                       color: Colors.blue,
                     )),
-                SizedBox(width: 15,),
+
                 IconButton(
                     onPressed: () async {
                       await player.stop();
                     },
                     icon: Icon(
                       EvaIcons.stopCircle,
-                      size: 70,
+                      size: 30,
                       color: Colors.blue,
                     )),
               ],

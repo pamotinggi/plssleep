@@ -58,12 +58,9 @@ class _RelaxpageState extends State<Relaxpage> {
                   },
                   icon: Icon(
                     EvaIcons.pauseCircle,
-                    size: 70,
+                    size: 30,
                     color: Colors.blue,
                   ),
-                ),
-                SizedBox(
-                  width: 15,
                 ),
                 IconButton(
                   onPressed: () async {
@@ -72,12 +69,9 @@ class _RelaxpageState extends State<Relaxpage> {
                   },
                   icon: Icon(
                     EvaIcons.playCircle,
-                    size: 70,
+                    size: 30,
                     color: Colors.blue,
                   ),
-                ),
-                SizedBox(
-                  width: 15,
                 ),
                 IconButton(
                   onPressed: () async {
@@ -85,7 +79,7 @@ class _RelaxpageState extends State<Relaxpage> {
                   },
                   icon: Icon(
                     EvaIcons.stopCircle,
-                    size: 70,
+                    size: 30,
                     color: Colors.blue,
                   ),
                 ),

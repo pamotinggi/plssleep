@@ -55,10 +55,9 @@ class _DarkambpageState extends State<Darkambpage> {
                     },
                     icon: Icon(
                       EvaIcons.pauseCircle,
-                      size: 70,
+                      size: 30,
                       color: Colors.blue,
                     )),
-                SizedBox(width: 15,),
                 IconButton(
                     onPressed: () async {
                       await player.setSource(AssetSource('darkamb.mp3'));
@@ -66,17 +65,16 @@ class _DarkambpageState extends State<Darkambpage> {
                     },
                     icon: Icon(
                       EvaIcons.playCircle,
-                      size: 70,
+                      size: 30,
                       color: Colors.blue,
                     )),
-                SizedBox(width: 15,),
                 IconButton(
                     onPressed: () async {
                       await player.stop();
                     },
                     icon: Icon(
                       EvaIcons.stopCircle,
-                      size: 70,
+                      size: 30,
                       color: Colors.blue,
                     )),
               ],
