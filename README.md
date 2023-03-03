@@ -5,7 +5,7 @@ untuk pamo tidur dengan lebih baik
 ## Getting Started
 
 This is a side & personal project of mine. My sleep schedule is off the rails so I kinda decided to 
-make web app of ambient sleep sound for my self so I don't have to deal with ads and other from other 
+make an app of ambient sleep sound for my self so I don't have to deal with ads and other from other 
 apps.
 
 ## Use of the code 
